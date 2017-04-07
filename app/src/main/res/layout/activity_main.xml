@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D32F2F"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/android_cookie_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.32"
+        android:scaleType="centerCrop"
+        android:src="@drawable/romantic" />
+
+    <TextView
+        android:id="@+id/status_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp"
+        android:textAlignment="center"
+        android:text="Romantic Caffe"
+        android:textColor="@android:color/white"
+        android:textSize="34sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp"
+        android:text="Phone Number: 0762740591"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp"
+        android:text="Address: Unirii South, Bloc 43, Ap. 16"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00E676"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp"
+        android:text="Opened everyday between 8AM - 10PM"/>
+
+
+
+</LinearLayout>
